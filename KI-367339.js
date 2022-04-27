@@ -4,8 +4,8 @@ function observeChangesOnCartItems(oldItems) {
   const observer = new MutationObserver((mutationsList, observer) => {
     const items = cartItems.querySelectorAll("li");
     //console.log(oldItems);
-    //console.log("items", items.length);
     if (oldItems != items.length) {
+      //console.log("items", items.length);
       const uniqueItems = [];
       items.forEach((item) => {
         const itemId = item.getAttribute("data-sku");
