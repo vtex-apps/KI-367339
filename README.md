@@ -2,7 +2,7 @@
 
 This script solves the KI https://vtexhelp.zendesk.com/agent/tickets/367339. 
 
-You need to add to the checkout at the `checkout6-custom.js`.
+You need to add the script to the checkout at the `checkout6-custom.js`.
 
 ## Contributors ✨
 
