@@ -1,4 +1,4 @@
-# KI-367339
+# [KI-367339] When arriving at the checkout with more than 23 items, some items in the display of the purchase summary in the interface end up being duplicated, even if in the API is the correct quantity and also the correct values and totalizers.
 
 This script solves the KI https://vtexhelp.zendesk.com/agent/tickets/367339. 
 
